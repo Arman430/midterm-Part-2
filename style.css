@@ -1,0 +1,41 @@
+/* TODO: Style the input field so that at minimum ... */
+/* 1. The input has only the bottom border
+ * 2. The font is a monospaced font
+ * (all other design decisions are up to you)
+ */
+
+#outPopUp {
+
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+
+}
+
+
+.t1{
+	outline: none;
+    /* border: none; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 2px;
+    align-content: center;
+    width: 500px;
+    /* height: 91px; */
+    /* height: 98px; */
+    background-position: center;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    font-size: 42px;
+    font-family:monospace
+}
+
+
+hr.new{
+  border: 1px solid black;
+}
